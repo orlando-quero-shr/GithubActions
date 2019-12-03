@@ -2,8 +2,6 @@ name: .NET Core
 
 on:
   push:
-    branches:
-      - '*'
     branches-ignore:
       - master
       - release*
