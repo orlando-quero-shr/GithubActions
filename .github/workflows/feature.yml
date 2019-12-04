@@ -1,13 +1,12 @@
-# This workflow will be fired everytime we push changes to any branch,
-# except: master, development or any release* branch
+# This workflow will be fired everytime we push changes to any branch named: feature* or bug*
 name: Feature
 
 on:
   push:
-    branches-ignore:
-      - master
-      - development
-      - release*
+    branches: [ 'feature*', 'bug*' ]
+      # - master
+      # - development
+      # - release*
 
 jobs:
   build:
