@@ -1,3 +1,4 @@
+# this workflow will be fired every time we create a v* tag
 name: Staging
 
 on:

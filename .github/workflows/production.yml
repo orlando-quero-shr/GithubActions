@@ -1,3 +1,4 @@
+# this workflow will be fired everytime we create a new release with status: pre-released
 name: Production
 
 on:

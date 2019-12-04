@@ -1,3 +1,4 @@
+# this workflow will be fired everytime we push changes to release* branches
 name: QA
 
 on:
